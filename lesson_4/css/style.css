@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit.woff2") format("woff2"),
+			url("../fonts/Larsseit.woff") format("woff");
+			font-display: swap;
+			font-weight: 400;
+			font-style: normal;
+}
+
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Medium.woff2") format("woff2"),
+			url("../fonts/Larsseit-Medium.woff") format("woff");
+			font-display: swap;
+			font-weight: 500;
+			font-style: normal;
+}
+
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Bold.woff2") format("woff2"),
+			url("../fonts/Larsseit-Bold.woff") format("woff");
+			font-display: swap;
+			font-weight: 700;
+			font-style: normal;
+}
+
+/* Lato кириличний */
+@font-face {
+	font-family: "Lato";
+	src: url("Lato-Black.woff2") format("woff2"),
+		 url("Lato-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("Lato-Bold.woff2") format("woff2"),
+		 url("Lato-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("Lato-Regular.woff2") format("woff2"),
+		 url("Lato-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+*{
+	font-family: "Roboto";
+}
+
+.uk-tittle{
+	font-family: "Lato";
+	font-weight: 900;
+	color: rgb(7, 84, 238);
+}
+
+.uk-tittle span{
+	font-family: "Lato";
+	font-weight: 900;
+	color: gold;
+}
+
+.tittle{
+	color: rgb(240, 112, 32);
+	font-family: "Larsseit";
+	font-weight: 900;
+}
+
+.list.content>li{
+	color: rgb(173, 222, 23);
+	font-weight: 700;
+}
+
+.list.content,
+.list.hotels{
+	color: rgb(7, 133, 131);
+	font-weight: 500;
+}
+
+
+#bleaze-through>p{
+	color: rgb(217, 20, 174);
+}
+
+#icebreaker>h2{
+	color: blue;
+}
+.block>h2{
+	color: red;
+	font-family: "Larsseit";
+	font-weight: 700;
+}
+
+.paragraph .link{
+	color: gold;
+}
+footer a.link{
+	color: rgb(238, 11, 113);
+	font-family: "Larsseit";
+	font-weight: 700;
+
+}
+
+#northern-lights p{
+	color: black;
+}
+
+.block > p{
+	color: aqua;
+}
+
+#snow-castles>p{
+	color: blueviolet;
+}
+
+.paragraph.text~p{
+	color: rgb(137, 229, 51);
+}
+
+.subtittle.icebreaker+p{
+	color: brown;
+}
+
