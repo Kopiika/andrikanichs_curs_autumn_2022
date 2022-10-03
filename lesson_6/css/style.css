@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+/* lato 400 700 900 */
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+/* Ubuntu 300 400 700 */
+
+
+/* Online curse */
+
+.article-online-curse{
+	max-width: 810px;
+	margin: 0 auto;
+	font-family: 'Lato', sans-serif;
+	color: #424551;
+	line-height: 25.6px;
+	margin-bottom: 100px;
+	padding-top: 118px;
+}
+
+.tittle{
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 59.8px;
+	margin-bottom: 92px;
+	color: #1E212C;
+}
+
+.image{
+	margin-bottom: 60px;
+}
+
+.image+p,
+.quote{
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	color: #1E212C;
+}
+
+.paragraph{
+	margin-bottom: 24px;
+}
+
+.quote{
+	margin-left: 58px;
+	margin-bottom: 48px;
+	margin-top: 48px;
+}
+
+.list{
+	margin-left: 42px;
+	margin-bottom: 24px;
+}
+
+.item{
+	margin-bottom: 4px;
+}
+
+/* second part home work */
+.article-nebula{
+	max-width: 950px;
+	margin: 0 auto;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: rgb(3, 3, 36);
+}
+
+.tittle-nebula,
+.main.tittle-nebula,
+.subtittle-nebula{
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 40px;
+	letter-spacing: 7px;
+	text-transform: uppercase;
+	text-shadow: 3px 3px 5px rgb(141, 127, 102);
+}
+
+.main.tittle-nebula{
+	font-size: 45px;
+}
+
+.tittle-nebula{
+	font-size: 30px;
+}
+
+
+.picture{
+	height: 400px;
+	width: 400px;
+	border-radius: 50%;
+	overflow: hidden;
+	display: block;
+	margin: 0 auto 30px;
+}
+
+.main-picture{
+	max-width: 950px;
+	border-radius: 38% 62% 40% 60% / 0% 55% 45% 100% ;
+	box-shadow: 20px 20px 15px 20px rgb(45, 44, 44);
+	margin: 0 auto 50px;
+	display: block;
+}
+
+.section-nebula{
+	max-height: 150px;
+	overflow: auto;
+	margin-bottom: 25px;
+	padding: 20px;
+	border: 3px dashed rgb(203, 57, 8);
+	border-bottom: none;
+	box-shadow: inset 0px -5px 15px 5px rgb(52, 51, 52);
+}
+
+.section-nebula .text,
+.section-formation .text,
+.section-classical-types .text{
+	margin-bottom: 10px;
+}
+
+.list-nebula li{
+	margin-bottom: 5px;
+}
+
+ul{
+	margin-top: 5px;
+}
+
+.sublist-nebula,
+.second-sublist-nebula{
+	margin-left: 20px;
+}
+
+ol.list-nebula{
+	padding: 10px;
+	margin: 0 auto 70px;
+	max-width: 500px;
+	outline: 3px solid red;
+	box-shadow: 10px 10px 10px 10px grey;
+	border-radius: 20px 60px;
+}
+
+.section{
+	margin-bottom: 50px;
+}
+
+.section-formation-text{
+	color: greenyellow;
+	text-shadow: 2px 2px 4px #000;
+	padding: 15px;
+	max-height: 150px;
+	overflow: scroll;
+	border-left: 10px double green;
+}
+
+/* ховає обєкт, не можна взаємодіяти, займає місце */
+.text.visibility{
+	visibility: hidden;
+}
+
+.section-classical-types .list-nebula{
+	max-width: 600px;
+	border-top: 7px dotted purple;
+	border-right: 7px dotted purple;
+	margin: 0 auto 15px;
+	padding: 15px;
+	color: rgb(53, 2, 18);
+	box-shadow: inset 13px -6px 15px grey;
+}
+
+.section-diffuse-text{
+ max-width: 300px;
+ height: 300px;
+ text-align:center;
+ margin: 0 auto;
+ border-radius: 50%;
+ border: 3px solid rgb(9, 151, 147);
+ box-shadow: inset 0px 0px 50px 10px rgb(9, 151, 147);
+ overflow: hidden;
+}
+
+/* прозорість, займає місце, можна взаємодіяти */
+.text.opacity{
+	opacity: 0;
+}
+
+.section-planetary-text{
+	max-width: 500px;
+	margin: 0px 0px 0px auto;
+	background-color: darkcyan;
+	color: white;
+	padding: 70px 40px;
+	border: 7px dashed darkgoldenrod;
+	box-shadow: -20px -30px 20px 20px grey;
+	border-radius: 0% 100% 0% 100% / 69% 35% 65% 31% ;
+}
+
+/* елемент не виводиться, його місце займає наступний обєкт */
+.text.none{
+	display: none;
+}
+
+.section-protoplanetary-text{
+	max-width: 600px;
+	margin: -310px auto 0;
+	padding: 10px;
+	text-align: center;
+	border-top: 8px double black;
+	
+}
+
+.picture.protoplanetary{
+	opacity: 60%;
+}
+
+
+.button{
+	display: block;
+	background-color: darkcyan;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 17px;
+	border-radius: 20px;
+	box-shadow: 0px 5px 0px 0px black;
+	max-width: 300px;
+	margin: 0 auto 50px;
+}
+
+#supernova-remnants .text{
+	background-color: aquamarine;
+	box-shadow: -20px 0px 20px 20px black;
+	opacity: 50%;
+	padding: 20px;
+	border-radius: 30px;
+
+}
