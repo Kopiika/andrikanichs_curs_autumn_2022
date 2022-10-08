@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+/* lato 400 700 900 */
+
+@font-face {
+	font-family: 'Hero New';
+	src: url('HeroNew-Regular.woff2') format('woff2'),
+		 url('HeroNew-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Hero New';
+	src: url('HeroNew-Bold.woff2') format('woff2'),
+		 url('HeroNew-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+
+/* Online curse */
+
+.article-online-curse{
+	max-width: 810px;
+	margin: 0 auto;
+	font-family: 'Lato', sans-serif;
+	color: #424551;
+	line-height: 1.6;
+	margin-bottom: 100px;
+	padding-top: 118px;
+}
+
+.tittle{
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 1.3;
+	margin-bottom: 92px;
+	color: #1E212C;
+}
+
+.image__container{
+	margin-bottom: 60px;
+}
+
+.image{
+	max-width: 100%;
+}
+
+.paragraph-bold__container{
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.5;
+	color: #1E212C;
+	margin-bottom: 24px;
+}
+
+.paragraph__container{
+	line-height: 1.6;
+	margin-bottom: 48px;
+}
+
+.paragraph__container p
+{
+	margin-bottom: 24px;
+}
+
+
+.quote__container{
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.5;
+	color: #1E212C;
+	margin-bottom: 48px;
+}
+
+.quote{
+	padding-left: 58px;
+}
+
+.list{
+	margin-bottom: 24px;
+}
+
+.item{
+	margin-bottom: 4px;
+	padding-left: 32px;
+}
+
+/* Background */
+
+.wrapper{
+	background-image: url(../img/seamless-background.png);
+	padding: 50px;
+}
+
+.article-tortoises{
+	background: rgb(247,249,249);
+	background: linear-gradient(0deg, rgba(247,249,249,1) 0%, rgba(246,233,7,1) 100%);
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 20px;
+	box-shadow: 0 0 40px 15px black;
+	max-width: 950px;
+	font-family: 'Hero New', serif;
+	font-size: 20px;
+}
+
+.main-tittle{
+	font-weight: 700;
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 60px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	
+}
+.article-tortoises .tittle{
+	font-weight: 700;
+	font-size: 34px;
+	margin-bottom: 20px;
+}
+
+[class*=__conteiner]{
+	margin-bottom: 40px;
+	padding: 20px;
+}
+
+.text{
+	line-height: 1.5;
+	margin-bottom: 15px;
+}
+
+.fact-one__conteiner{
+	border-radius: 30px 100px;
+	background: url(../img/face-tortoise.png) bottom / auto 50% repeat-x, rgb(28, 65, 28);
+	
+}
+
+.fact-one__conteiner .text,
+.fact-one__conteiner .tittle{
+	text-align: center;
+	color: white;
+	text-shadow: 3px 3px 5px #030303;
+}
+
+.fact-two__conteiner{
+	text-shadow: 0 0 3px rgb(244, 242, 242);
+	box-shadow: inset 0px 0px 60px #000;
+	background: url(../img/little-tortoise.png) 0 0 / 150px space fixed, rgba(70, 133, 221, 0.796)
+}
+
+.fact-three__conteiner{
+	background: url(../img/main-tortoise.png) center/ cover no-repeat;
+	
+}
+
+.fact-three__conteiner p{
+	background-color: rgba(242, 246, 242, 0.361);
+	padding: 10px;
+	border-radius: 20px;
+}
+
+.fact-four__conteiner{
+	max-height: 250px;
+	overflow: auto;
+	background: url(../img/hundry-tortoise.png) 0 0 / cover no-repeat;
+	border-radius: 30px;
+	color: white;
+}
+
+.fact-five__conteiner{
+	border-radius: 20px;
+	background: url(../img/little-tortoise.png) 0 0 / auto 50% repeat-y, url(../img/face-tortoise.png) right top / auto 50% no-repeat, radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(153,252,70,1) 100%);
+}
